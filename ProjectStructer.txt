@@ -1,0 +1,73 @@
+EmployeeApp
+│
+├── Models
+│   ├── Entities
+│   │     └── Employee.cs
+│   │
+│   └── DTOs
+│         ├── EmployeeCreateDto.cs
+│         ├── EmployeeUpdateDto.cs
+│         └── EmployeeResponseDto.cs
+│
+├── Repositories
+│   ├── Interfaces
+│   │     └── IEmployeeRepository.cs
+│   └── EmployeeRepository.cs
+│   └── AppDbContext.cs
+│
+├── Services
+│   ├── Interfaces
+│   │     └── IEmployeeService.cs
+│   └── EmployeeService.cs
+│
+├── Controllers
+│     └── EmployeesController.cs
+
+
+------------------------------------------V2------------------------------------------
+
+EmployeeApp
+│
+├── Models
+│   ├── Entities
+│   │     └── Employee.cs
+│   │
+│   └── DTOs
+│         ├── EmployeeCreateDto.cs
+│         ├── EmployeeUpdateDto.cs
+│         ├── EmployeeResponseDto.cs
+│         │
+│         └── AISearch
+│               ├── AISearchRequestDto.cs
+│               ├── AISearchResponseDto.cs
+│               └── AIQueryMetadataDto.cs
+│
+├── Repositories
+│   ├── Interfaces
+│   │     └── IEmployeeRepository.cs
+│   │
+│   ├── EmployeeRepository.cs
+│   └── AppDbContext.cs
+│
+├── Services
+│   ├── Interfaces
+│   │     ├── IEmployeeService.cs
+│   │     └── IAISearchService.cs
+│   │
+│   ├── EmployeeService.cs
+│   └── AISearchService.cs
+│
+├── AI
+│   ├── Interfaces
+│   │     └── IAIQueryInterpreter.cs
+│   │
+│   ├── AIQueryInterpreter.cs
+│   └── PromptTemplates
+│         └── EmployeeSearchPrompt.txt
+│
+├── Controllers
+│     ├── EmployeesController.cs
+│     └── AISearchController.cs
+
+
+
