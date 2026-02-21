@@ -70,7 +70,7 @@ builder.Services.AddSwaggerGen(c =>
 
 
 
-// ---------------- JWT Auth -----------------------
+// ---------------- JWT Auth For Token-----------------------
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
