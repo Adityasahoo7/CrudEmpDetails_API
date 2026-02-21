@@ -150,3 +150,5 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\obj\Debug\net8.0\refint\CrudDe
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\obj\Debug\net8.0\CrudDemoPratice.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\obj\Debug\net8.0\CrudDemoPratice.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\obj\Debug\net8.0\ref\CrudDemoPratice.dll
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice\obj\Debug\net8.0\CrudDemoPratice.sourcelink.json

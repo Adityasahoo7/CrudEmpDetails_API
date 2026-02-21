@@ -15,3 +15,4 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\re
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\ref\CrudDemoPratice.Repository.dll
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.sourcelink.json

@@ -17,3 +17,4 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Service\obj\Debug\net8.0\refin
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Service\obj\Debug\net8.0\CrudDemoPratice.Service.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Service\obj\Debug\net8.0\CrudDemoPratice.Service.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Service\obj\Debug\net8.0\ref\CrudDemoPratice.Service.dll
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Service\obj\Debug\net8.0\CrudDemoPratice.Service.sourcelink.json

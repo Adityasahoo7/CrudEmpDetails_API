@@ -1,5 +1,6 @@
 ﻿using CrudDemoPratice.Models.DTOs.AISearch;
 using CrudDemoPratice.Service.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CrudDemoPratice.Controllers
@@ -14,7 +15,7 @@ namespace CrudDemoPratice.Controllers
         {
             _service = service;
         }
-
+        [Authorize(Roles = "Admin,User")]
         [HttpPost]
         public async Task<IActionResult> Search(AISearchRequestDto request)
         {

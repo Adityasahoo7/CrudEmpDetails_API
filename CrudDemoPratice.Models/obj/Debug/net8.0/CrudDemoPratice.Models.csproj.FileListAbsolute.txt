@@ -12,3 +12,4 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\refint
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\ref\CrudDemoPratice.Models.dll
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.sourcelink.json
