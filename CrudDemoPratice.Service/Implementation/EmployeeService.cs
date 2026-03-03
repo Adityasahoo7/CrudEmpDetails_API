@@ -30,7 +30,8 @@ namespace CrudDemoPratice.Service.Implementation
                 Phone = e.Phone,//Return the phone number
                 Email = e.Email,
                 Age = e.Age,
-                Department = e.Department
+                Department = e.Department,
+                JoiningDate= e.JoiningDate
                 //I am not return phone number because of some security reasons
             }).ToList();
         
@@ -53,7 +54,8 @@ namespace CrudDemoPratice.Service.Implementation
                 Phone = emp.Phone,
                 Email = emp.Email,
                 Age = emp.Age,
-                Department = emp.Department
+                Department = emp.Department,
+                JoiningDate = emp.JoiningDate
 
 
             };
@@ -69,7 +71,8 @@ namespace CrudDemoPratice.Service.Implementation
                 Phone = dto.Phone,
                 Email = dto.Email,
                 Age = dto.Age,
-                Department = dto.Department
+                Department = dto.Department,
+                JoiningDate = dto.JoiningDate
             };
 
             await _repo.AddAsyncRepo(emp);
@@ -90,6 +93,7 @@ namespace CrudDemoPratice.Service.Implementation
             emp.Email = dto.Email;
             emp.Age = dto.Age;
             emp.Department = dto.Department;
+            emp.JoiningDate = dto.JoiningDate;
 
             await _repo.UpdateAsyncRepo(emp);
 

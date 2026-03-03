@@ -296,6 +296,10 @@
           "department": {
             "type": "string",
             "nullable": true
+          },
+          "joiningDate": {
+            "type": "string",
+            "format": "date"
           }
         },
         "additionalProperties": false
@@ -370,6 +374,10 @@
           "department": {
             "type": "string",
             "nullable": true
+          },
+          "joiningDate": {
+            "type": "string",
+            "format": "date"
           }
         },
         "additionalProperties": false

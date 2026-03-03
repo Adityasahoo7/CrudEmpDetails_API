@@ -16,7 +16,9 @@ namespace CrudDemoPratice.Models.Models
         public int Age { get; set; }
         public string Department { get; set; }
 
-        public DateTime JoiningDate { get; set; }
+        public DateOnly JoiningDate { get; set; }
+
+        
 
     }
 }
