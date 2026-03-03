@@ -1,0 +1,4 @@
+
+INSERT INTO Employeesds (Name, Salary, Phone, Email, Age, Department, JoiningDate)
+SELECT Name, Salary, Phone, Email, Age, Department, JoiningDate
+FROM MLModelTrainData;
