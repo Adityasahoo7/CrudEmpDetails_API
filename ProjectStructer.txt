@@ -71,3 +71,54 @@ EmployeeApp
 
 
 
+
+
+
+---------------------UPDATE WITH ML.NET Enhancement ---------------------
+
+EmployeeApp.sln
+│
+├── EmployeeApp.API
+│   ├── Controllers
+│   │     ├── EmployeeController.cs
+│   │     └── SalaryPredictionController.cs
+│   │
+│   ├── MLModels
+│   │     └── salary_model.zip          ← Saved trained model
+│   │
+│   └── Program.cs
+│
+├── EmployeeApp.Service
+│   ├── Interfaces
+│   │     ├── IEmployeeService.cs
+│   │     └── ISalaryPredictionService.cs
+│   │
+│   └── Implementation
+│         ├── EmployeeService.cs
+│         └── SalaryPredictionService.cs
+│
+├── EmployeeApp.Data
+│   ├── ApplicationDbContext.cs
+│   └── Repositories
+│         ├── IEmployeeRepository.cs
+│         └── EmployeeRepository.cs
+│
+├── EmployeeApp.Models
+│   ├── Entities
+│   │     └── Employee.cs
+│   │
+│   ├── DTOs
+│   │     ├── SalaryPredictionRequestDto.cs
+│   │     └── SalaryPredictionResponseDto.cs
+│   │
+│   └── MLModels
+│         ├── SalaryTrainingData.cs
+│         └── SalaryPredictionResult.cs
+│
+└── EmployeeApp.ML
+    ├── Trainer
+    │     └── SalaryModelTrainer.cs
+    │
+    └── Predictor
+          └── SalaryModelPredictor.cs
+

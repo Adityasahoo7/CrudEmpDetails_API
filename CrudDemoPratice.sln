@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudDemoPratice.Repository"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudDemoPratice.Service", "CrudDemoPratice.Service\CrudDemoPratice.Service.csproj", "{FC4AC12D-9616-4028-8A4C-5189CE614604}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudDemoPratice.ML", "CrudDemoPratice.ML\CrudDemoPratice.ML.csproj", "{09FFEF78-2172-4547-9747-9FE541D86F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FC4AC12D-9616-4028-8A4C-5189CE614604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4AC12D-9616-4028-8A4C-5189CE614604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4AC12D-9616-4028-8A4C-5189CE614604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FFEF78-2172-4547-9747-9FE541D86F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FFEF78-2172-4547-9747-9FE541D86F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FFEF78-2172-4547-9747-9FE541D86F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FFEF78-2172-4547-9747-9FE541D86F34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

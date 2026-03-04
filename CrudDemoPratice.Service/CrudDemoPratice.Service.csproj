@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CrudDemoPratice.ML\CrudDemoPratice.ML.csproj" />
     <ProjectReference Include="..\CrudDemoPratice.Models\CrudDemoPratice.Models.csproj" />
     <ProjectReference Include="..\CrudDemoPratice.Repository\CrudDemoPratice.Repository.csproj" />
   </ItemGroup>

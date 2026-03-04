@@ -1454,6 +1454,20 @@
           }
         }
       },
+      "CrudDemoPratice.ML/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CrudDemoPratice.Models": "1.0.0",
+          "CrudDemoPratice.Repository": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrudDemoPratice.ML.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrudDemoPratice.ML.dll": {}
+        }
+      },
       "CrudDemoPratice.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3742,6 +3756,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CrudDemoPratice.ML/1.0.0": {
+      "type": "project",
+      "path": "../CrudDemoPratice.ML/CrudDemoPratice.ML.csproj",
+      "msbuildProject": "../CrudDemoPratice.ML/CrudDemoPratice.ML.csproj"
+    },
     "CrudDemoPratice.Models/1.0.0": {
       "type": "project",
       "path": "../CrudDemoPratice.Models/CrudDemoPratice.Models.csproj",
@@ -3755,6 +3774,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CrudDemoPratice.ML >= 1.0.0",
       "CrudDemoPratice.Models >= 1.0.0",
       "CrudDemoPratice.Repository >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.24",
@@ -3795,6 +3815,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.ML\\CrudDemoPratice.ML.csproj": {
+              "projectPath": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.ML\\CrudDemoPratice.ML.csproj"
+            },
             "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj": {
               "projectPath": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj"
             },
