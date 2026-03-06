@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CrudDemoPratice.Models.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,9 @@ namespace CrudDemoPratice.Service.Interface
 {
     public interface ISalaryPredictionService
     {
+        Task TrainModelAsync();
+
+        Task<SalaryPredictionResponseDto> PredictAsync(
+            SalaryPredictionRequestDto request);
     }
 }

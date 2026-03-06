@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\DotNet Project\\CrudDemoPratice\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E4A3FAA-BD0A-4592-9780-DB2D205A0D96}|CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice.models\\dtos\\salarypredictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4A3FAA-BD0A-4592-9780-DB2D205A0D96}|CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj|solutionrelative:cruddemopratice.models\\dtos\\salarypredictionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4A3FAA-BD0A-4592-9780-DB2D205A0D96}|CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice.models\\dtos\\salarypredictionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4A3FAA-BD0A-4592-9780-DB2D205A0D96}|CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj|solutionrelative:cruddemopratice.models\\dtos\\salarypredictionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -115,19 +119,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SalaryPredictionResponseDto.cs",
+              "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\SalaryPredictionResponseDto.cs",
+              "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\SalaryPredictionResponseDto.cs",
+              "ToolTip": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\SalaryPredictionResponseDto.cs",
+              "RelativeToolTip": "CrudDemoPratice.Models\\DTOs\\SalaryPredictionResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T11:43:50.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SalaryPredictionRequestDto.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\SalaryPredictionRequestDto.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\SalaryPredictionRequestDto.cs",
               "ToolTip": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\SalaryPredictionRequestDto.cs",
               "RelativeToolTip": "CrudDemoPratice.Models\\DTOs\\SalaryPredictionRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T11:36:22.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SalaryPredictionResult.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\MLModels\\SalaryPredictionResult.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\MLModels\\SalaryPredictionResult.cs",
@@ -135,12 +152,11 @@
               "RelativeToolTip": "CrudDemoPratice.Models\\MLModels\\SalaryPredictionResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T11:32:56.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T11:32:56.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SalaryTrainingData.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\MLModels\\SalaryTrainingData.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\MLModels\\SalaryTrainingData.cs",
@@ -152,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SalaryModelPredictor.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.ML\\Predictor\\SalaryModelPredictor.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.ML\\Predictor\\SalaryModelPredictor.cs",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SalaryModelTrainer.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.ML\\Trainer\\SalaryModelTrainer.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.ML\\Trainer\\SalaryModelTrainer.cs",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CrudDemoPratice.ML.csproj",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.ML\\CrudDemoPratice.ML.csproj",
               "RelativeDocumentMoniker": "CrudDemoPratice.ML\\CrudDemoPratice.ML.csproj",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CrudDemoPratice.Service.csproj",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj",
@@ -200,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CrudDemoPratice.Models.csproj",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\CrudDemoPratice.Models.csproj",
@@ -212,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20260303124245_Add Joining date column.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Repository\\Migrations\\20260303124245_Add Joining date column.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Repository\\Migrations\\20260303124245_Add Joining date column.cs",
@@ -224,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
@@ -236,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UpdateEmployeeDTO.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\UpdateEmployeeDTO.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\UpdateEmployeeDTO.cs",
@@ -248,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GetAllEmployeeDTO.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\GetAllEmployeeDTO.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\GetAllEmployeeDTO.cs",
@@ -260,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreateEmployeeDTO.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\CreateEmployeeDTO.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\CreateEmployeeDTO.cs",
@@ -272,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\Models\\Employee.cs",
@@ -284,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Controllers\\EmployeeController.cs",
@@ -296,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20260221191102_AddUserTable.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Repository\\Migrations\\20260221191102_AddUserTable.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Repository\\Migrations\\20260221191102_AddUserTable.cs",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Models\\DTOs\\LoginResponse.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Models\\DTOs\\LoginResponse.cs",
@@ -320,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AISearchController.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\AISearchController.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Controllers\\AISearchController.cs",
@@ -332,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Program.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Program.cs",
@@ -344,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Controllers\\AuthController.cs",
@@ -356,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\AuthService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Implementation\\AuthService.cs",
@@ -368,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Interface\\IAuthService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Interface\\IAuthService.cs",
@@ -380,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Repository\\AppDBContext.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Repository\\AppDBContext.cs",
@@ -392,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Repository\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Repository\\Interface\\IUserRepository.cs",
@@ -404,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AISearchService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\AISearchService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Implementation\\AISearchService.cs",

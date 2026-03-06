@@ -27,6 +27,7 @@ builder.Services.AddScoped<IAIQueryInterpreter, AIQueryInterpreter>();
 builder.Services.AddScoped<IAISearchService, AISearchService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ISalaryPredictionService, SalaryPredictionService>();
 
 
 builder.Services.AddHttpClient<IAIQueryInterpreter, AIQueryInterpreter>(client =>

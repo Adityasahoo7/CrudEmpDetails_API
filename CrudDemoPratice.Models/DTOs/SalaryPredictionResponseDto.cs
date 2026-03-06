@@ -8,5 +8,6 @@ namespace CrudDemoPratice.Models.DTOs
 {
     public class SalaryPredictionResponseDto
     {
+        public float PredictedSalary { get; set; }
     }
 }

@@ -8,5 +8,6 @@ namespace CrudDemoPratice.Models.MLModels
 {
     public class SalaryPredictionResult
     {
+        public float Score { get; set; }
     }
 }

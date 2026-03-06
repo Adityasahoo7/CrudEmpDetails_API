@@ -8,5 +8,10 @@ namespace CrudDemoPratice.Models.DTOs
 {
     public class SalaryPredictionRequestDto
     {
+        public int Age { get; set; }
+
+        public DateOnly JoiningDate { get; set; }
+
+        public string Department { get; set; } = string.Empty;
     }
 }

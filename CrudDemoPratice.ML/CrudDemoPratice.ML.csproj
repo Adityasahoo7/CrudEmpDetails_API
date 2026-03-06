@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="5.0.0" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CrudDemoPratice.Models\CrudDemoPratice.Models.csproj" />
     <ProjectReference Include="..\CrudDemoPratice.Repository\CrudDemoPratice.Repository.csproj" />
   </ItemGroup>
