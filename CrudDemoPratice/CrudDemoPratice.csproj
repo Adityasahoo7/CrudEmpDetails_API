@@ -25,4 +25,8 @@
     <ProjectReference Include="..\CrudDemoPratice.Service\CrudDemoPratice.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MLModels\" />
+  </ItemGroup>
+
 </Project>
