@@ -18,9 +18,13 @@ namespace CrudDemoPratice.ML.Trainer
             var trainingData = mlContext.Data.LoadFromEnumerable(data);
 
             var pipeline =
-                mlContext.Transforms.Categorical.OneHotEncoding(
+                mlContext.Transforms.CopyColumns(
+                    outputColumnName: "Label",
+                    inputColumnName: nameof(SalaryTrainingData.Salary))
+
+                .Append(mlContext.Transforms.Categorical.OneHotEncoding(
                     outputColumnName: "DepartmentEncoded",
-                    inputColumnName: nameof(SalaryTrainingData.Department))
+                    inputColumnName: nameof(SalaryTrainingData.Department)))
 
                 .Append(mlContext.Transforms.Concatenate(
                     "Features",

@@ -122,6 +122,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CrudDemoPratice.Controllers.SalaryPredictionController",
+    "Method": "Predict",
+    "RelativePath": "api/SalaryPrediction/predict",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudDemoPratice.Models.DTOs.SalaryPredictionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudDemoPratice.Controllers.SalaryPredictionController",
+    "Method": "Train",
+    "RelativePath": "api/SalaryPrediction/train",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CrudDemoPratice.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
