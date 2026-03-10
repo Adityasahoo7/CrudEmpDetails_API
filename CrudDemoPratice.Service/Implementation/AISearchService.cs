@@ -115,7 +115,8 @@ namespace CrudDemoPratice.Service.Implementation
                 Phone = e.Phone,
                 Email = e.Email,
                 Age = e.Age,
-                Department = e.Department
+                Department = e.Department,
+                JoiningDate = e.JoiningDate
             }).ToListAsync();
         }
 
