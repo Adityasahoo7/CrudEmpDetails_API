@@ -64,7 +64,7 @@ namespace CrudDemoPratice.Controllers
             return Ok("Employee Updated Successfully");
 
         }
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpDelete("DeleteEmployee/{id}")]
         public async Task<IActionResult> DeleteEmp(int id) {
 
