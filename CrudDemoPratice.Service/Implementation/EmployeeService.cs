@@ -18,6 +18,13 @@ namespace CrudDemoPratice.Service.Implementation
                 _repo = repo;
         }
 
+
+        public async Task<(List<Employee>, int)> GetFilteredEmployees(EmployeeFilterRequestDTO request)
+        {
+            var employees = await _repo.GetFilteredEmployees(request);
+            return (employees, employees.Count);
+        }
+
         public async Task<List<GetAllEmployeeDTO>> GetAllEmployeeService() {
 
             var emp = await _repo.GetAllAsyncRepo();

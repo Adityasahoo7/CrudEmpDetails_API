@@ -1,4 +1,5 @@
-﻿using CrudDemoPratice.Models.Models;
+﻿using CrudDemoPratice.Models.DTOs;
+using CrudDemoPratice.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace CrudDemoPratice.Repository.Interface
 {
     public interface IEmployeeRepo
     {
+        Task<List<Employee>> GetFilteredEmployees(EmployeeFilterRequestDTO request);
         Task<List<Employee>> GetAllAsyncRepo();
         Task<Employee> GetByIdAsyncRepo(int id);
         Task AddAsyncRepo(Employee employee);

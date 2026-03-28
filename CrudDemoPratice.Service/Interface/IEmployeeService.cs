@@ -13,7 +13,7 @@ namespace CrudDemoPratice.Service.Interface
         Task<List<GetAllEmployeeDTO>> GetAllEmployeeService();
         Task<GetAllEmployeeDTO> GetEmployeeByIdService(int id);
         Task AddEmployeeService(CreateEmployeeDTO createEmployeeDTO);
-
+        Task<(List<Employee>, int)> GetFilteredEmployees(EmployeeFilterRequestDTO request);
         Task UpdateEmployeeService(UpdateEmployeeDTO updateEmployeeDTO);
 
         Task DeleteEmployeeService(int id);

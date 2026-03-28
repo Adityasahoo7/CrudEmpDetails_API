@@ -1,4 +1,5 @@
-﻿using CrudDemoPratice.Models.Models;
+﻿using CrudDemoPratice.Models.DTOs;
+using CrudDemoPratice.Models.Models;
 using CrudDemoPratice.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -17,6 +18,26 @@ namespace CrudDemoPratice.Repository.Implementation
         {
                 _context = context;
         }
+
+        public async Task<List<Employee>> GetFilteredEmployees(EmployeeFilterRequestDTO request)
+        {
+            var query = _context.Employeesds.AsQueryable();
+
+            if (request.FromDate.HasValue)
+                query = query.Where(e => e.JoiningDate >= request.FromDate.Value);
+
+            if (request.ToDate.HasValue)
+                query = query.Where(e => e.JoiningDate <= request.ToDate.Value);
+
+            if (request.MinSalary.HasValue)
+                query = query.Where(e => e.Salary >= request.MinSalary.Value);
+
+            if (request.MaxSalary.HasValue)
+                query = query.Where(e => e.Salary <= request.MaxSalary.Value);
+
+            return await query.ToListAsync();
+        }
+
 
         public async Task<List<Employee>> GetAllAsyncRepo() {
             return await _context.Employeesds.ToListAsync();
