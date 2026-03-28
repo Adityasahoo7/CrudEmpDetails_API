@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudDemoPratice.ML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403fe1d33ffe4d58ae2ceb99591c5368ba353dda")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7209bcfc2abf28d12ebb0e6c52cd2a05ca21e90")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudDemoPratice.ML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudDemoPratice.ML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

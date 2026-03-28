@@ -81,6 +81,22 @@
   },
   {
     "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
+    "Method": "GetFilteredEmployees",
+    "RelativePath": "api/Employee/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudDemoPratice.Models.DTOs.EmployeeFilterRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
     "Method": "GetAllEmployees",
     "RelativePath": "api/Employee/GetAllEmployees",
     "HttpMethod": "GET",

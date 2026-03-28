@@ -98,6 +98,37 @@
         }
       }
     },
+    "/api/Employee/filter": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeFilterRequestDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeFilterRequestDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeFilterRequestDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Employee/GetAllEmployees": {
       "get": {
         "tags": [
@@ -343,6 +374,32 @@
           "joiningDate": {
             "type": "string",
             "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeFilterRequestDTO": {
+        "type": "object",
+        "properties": {
+          "fromDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "toDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "minSalary": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "maxSalary": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
           }
         },
         "additionalProperties": false

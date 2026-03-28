@@ -16,7 +16,7 @@ namespace CrudDemoPratice.Controllers
             _employeeService = employeeService;
         }
 
-        [HttpPost("filter")]
+        [HttpPost("filteronly")]
         public async Task<IActionResult> GetFilteredEmployees([FromBody] EmployeeFilterRequestDTO request)
         {
             var (employees, count) = await _employeeService.GetFilteredEmployees(request);
