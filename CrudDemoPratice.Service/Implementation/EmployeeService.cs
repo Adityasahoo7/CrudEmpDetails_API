@@ -2,8 +2,12 @@
 using CrudDemoPratice.Models.Models;
 using CrudDemoPratice.Repository.Interface;
 using CrudDemoPratice.Service.Interface;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
+using Microsoft.Extensions.ObjectPool;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,11 +22,51 @@ namespace CrudDemoPratice.Service.Implementation
                 _repo = repo;
         }
 
+        
 
         public async Task<(List<Employee>, int)> GetFilteredEmployees(EmployeeFilterRequestDTO request)
         {
             var employees = await _repo.GetFilteredEmployees(request);
             return (employees, employees.Count);
+        }
+
+
+        public async Task<byte[]> ExportEmployeesToExcel(EmployeeFilterRequestDTO request)
+        {
+            var employees = await _repo.GetFilteredEmployees(request);
+
+            using (var package = new ExcelPackage())
+            {
+                var worksheet = package.Workbook.Worksheets.Add("Employees");
+
+                // Header
+                worksheet.Cells[1, 1].Value = "Id";
+                worksheet.Cells[1, 2].Value = "Name";
+                worksheet.Cells[1, 3].Value = "Salary";
+                worksheet.Cells[1,4].Value= "Phone";
+                worksheet.Cells[1, 5].Value = "Email";
+                worksheet.Cells[1, 6].Value = "Age";
+                worksheet.Cells[1, 7].Value = "Department";
+                worksheet.Cells[1, 8].Value = "Joining Date";
+
+                // Data
+                for (int i = 0; i < employees.Count; i++)
+                {
+                    var e = employees[i];
+                    worksheet.Cells[i + 2, 1].Value = e.Id;
+                    worksheet.Cells[i + 2, 2].Value = e.Name;
+                   
+                    worksheet.Cells[i + 2, 3].Value = e.Salary;
+
+                    worksheet.Cells[i + 2, 4].Value = await Convertnumber(e.Phone);
+
+
+
+                    worksheet.Cells[i + 2, 3].Value = e.JoiningDate.ToString("yyyy-MM-dd");
+                }
+
+                return package.GetAsByteArray();
+            }
         }
 
         public async Task<List<GetAllEmployeeDTO>> GetAllEmployeeService() {
@@ -112,7 +156,25 @@ namespace CrudDemoPratice.Service.Implementation
         }
 
 
+        public async Task<string> Convertnumber(string number)
+        {
+            string str = "";
+            for (int i = 0; i < number.Length; i++)
+            {
+                if (i < number.Length - 4)
+                {
+                    str += "X";
+                }
+                else
+                {
+                    str += number[i];
+                }
+            }
 
+            return str;
+        }
+
+        
 
 
 
