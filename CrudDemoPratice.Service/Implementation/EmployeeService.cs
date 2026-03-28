@@ -55,14 +55,12 @@ namespace CrudDemoPratice.Service.Implementation
                     var e = employees[i];
                     worksheet.Cells[i + 2, 1].Value = e.Id;
                     worksheet.Cells[i + 2, 2].Value = e.Name;
-                   
                     worksheet.Cells[i + 2, 3].Value = e.Salary;
-
                     worksheet.Cells[i + 2, 4].Value = await Convertnumber(e.Phone);
-
-
-
-                    worksheet.Cells[i + 2, 3].Value = e.JoiningDate.ToString("yyyy-MM-dd");
+                    worksheet.Cells[i + 2, 5].Value = await ConvertEmail(e.Email);
+                    worksheet.Cells[i + 2, 6].Value = e.Age;
+                    worksheet.Cells[i + 2, 7].Value = e.Department;
+                    worksheet.Cells[i + 2, 8].Value = e.JoiningDate.ToString("yyyy-MM-dd");
                 }
 
                 return package.GetAsByteArray();
