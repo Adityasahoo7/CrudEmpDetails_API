@@ -170,9 +170,19 @@ namespace CrudDemoPratice.Service.Implementation
                     str += number[i];
                 }
             }
-
             return str;
         }
+        public async Task<string> ConvertEmail(string email) {
+
+            var parts = email.Split('@');
+            var username = parts[0];
+            var domain = parts[1];
+
+            return username.Substring(0,3)+"****@"+domain;
+
+
+        }
+
 
         
 
