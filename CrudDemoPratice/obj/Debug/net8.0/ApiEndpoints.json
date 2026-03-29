@@ -81,6 +81,22 @@
   },
   {
     "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
+    "Method": "ExportEmployees",
+    "RelativePath": "api/Employee/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudDemoPratice.Models.DTOs.EmployeeFilterRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
     "Method": "GetFilteredEmployees",
     "RelativePath": "api/Employee/filter",
     "HttpMethod": "POST",

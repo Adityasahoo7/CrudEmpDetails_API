@@ -16,7 +16,7 @@ namespace CrudDemoPratice.Controllers
             _employeeService = employeeService;
         }
 
-        [HttpPost("filteronly")]
+        [HttpPost("filter")]
         public async Task<IActionResult> GetFilteredEmployees([FromBody] EmployeeFilterRequestDTO request)
         {
             var (employees, count) = await _employeeService.GetFilteredEmployees(request);
@@ -27,9 +27,18 @@ namespace CrudDemoPratice.Controllers
                 Data = employees
             });
         }
+        [HttpPost("export")]
+        public async Task<IActionResult> ExportEmployees([FromBody] EmployeeFilterRequestDTO request)
+        {
+            var fileBytes = await _employeeService.ExportEmployeesToExcel(request);
+
+            return File(fileBytes,
+                "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                "Employees.xlsx");
+        }
 
 
-       // [Authorize(Roles = "Admin,User")]
+        // [Authorize(Roles = "Admin,User")]
         [HttpGet("GetAllEmployees")]
         public async Task<IActionResult> GetAllEmployees()
         {

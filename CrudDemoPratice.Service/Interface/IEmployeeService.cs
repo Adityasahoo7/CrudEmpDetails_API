@@ -10,6 +10,7 @@ namespace CrudDemoPratice.Service.Interface
 {
     public interface IEmployeeService
     {
+        Task<byte[]> ExportEmployeesToExcel(EmployeeFilterRequestDTO request);
         Task<List<GetAllEmployeeDTO>> GetAllEmployeeService();
         Task<GetAllEmployeeDTO> GetEmployeeByIdService(int id);
         Task AddEmployeeService(CreateEmployeeDTO createEmployeeDTO);

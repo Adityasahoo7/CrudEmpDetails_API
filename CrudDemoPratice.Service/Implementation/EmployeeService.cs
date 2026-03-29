@@ -33,6 +33,7 @@ namespace CrudDemoPratice.Service.Implementation
 
         public async Task<byte[]> ExportEmployeesToExcel(EmployeeFilterRequestDTO request)
         {
+            ExcelPackage.License.SetNonCommercialPersonal("Aditya");
             var employees = await _repo.GetFilteredEmployees(request);
 
             using (var package = new ExcelPackage())
