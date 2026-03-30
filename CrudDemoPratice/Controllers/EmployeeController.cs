@@ -15,7 +15,7 @@ namespace CrudDemoPratice.Controllers
         {
             _employeeService = employeeService;
         }
-
+        [Authorize(Roles = "Admin,User")]
         [HttpPost("filter")]
         public async Task<IActionResult> GetFilteredEmployees([FromBody] EmployeeFilterRequestDTO request)
         {
@@ -27,6 +27,7 @@ namespace CrudDemoPratice.Controllers
                 Data = employees
             });
         }
+        [Authorize(Roles = "Admin,User")]
         [HttpPost("export")]
         public async Task<IActionResult> ExportEmployees([FromBody] EmployeeFilterRequestDTO request)
         {
@@ -38,14 +39,14 @@ namespace CrudDemoPratice.Controllers
         }
 
 
-        // [Authorize(Roles = "Admin,User")]
+         [Authorize(Roles = "Admin,User")]
         [HttpGet("GetAllEmployees")]
         public async Task<IActionResult> GetAllEmployees()
         {
             var employees = await _employeeService.GetAllEmployeeService();
             return Ok(employees);
         }
-      //  [Authorize(Roles = "Admin,User")]
+        [Authorize(Roles = "Admin,User")]
         [HttpGet("GetEmployeeById/{id}")]
         public async Task<IActionResult> GetEmployeeById(int id)
         {
@@ -57,14 +58,14 @@ namespace CrudDemoPratice.Controllers
             return Ok(employee);
         }
 
-       // [Authorize(Roles = "Admin,User")]
+        [Authorize(Roles = "Admin,User")]
         [HttpPost("AddEmployee")]
         public async Task<IActionResult> CreateEmp(CreateEmployeeDTO dto)
         {
             await _employeeService.AddEmployeeService(dto);
             return Ok("Employee created successfully.");
         }
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPut("UpdateEmployee")]
 
         public async Task<IActionResult> UpdateEmp(UpdateEmployeeDTO dto) {
