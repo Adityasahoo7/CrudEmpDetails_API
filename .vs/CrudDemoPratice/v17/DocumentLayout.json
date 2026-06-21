@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\DotNet Project\\CrudDemoPratice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03FD406B-9CBE-429A-9DB7-474262B47CCA}|CrudDemoPratice\\CrudDemoPratice.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03FD406B-9CBE-429A-9DB7-474262B47CCA}|CrudDemoPratice\\CrudDemoPratice.csproj|solutionrelative:cruddemopratice\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\EmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudDemoPratice.Service\\Implementation\\EmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC4AC12D-9616-4028-8A4C-5189CE614604}|CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice.service\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4AC12D-9616-4028-8A4C-5189CE614604}|CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj|solutionrelative:cruddemopratice.service\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudDemoPratice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03FD406B-9CBE-429A-9DB7-474262B47CCA}|CrudDemoPratice\\CrudDemoPratice.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03FD406B-9CBE-429A-9DB7-474262B47CCA}|CrudDemoPratice\\CrudDemoPratice.csproj|solutionrelative:cruddemopratice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudDemoPratice\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC4AC12D-9616-4028-8A4C-5189CE614604}|CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj|d:\\dotnet project\\cruddemopratice\\cruddemopratice.service\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC4AC12D-9616-4028-8A4C-5189CE614604}|CrudDemoPratice.Service\\CrudDemoPratice.Service.csproj|solutionrelative:cruddemopratice.service\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudDemoPratice\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Interface\\IEmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudDemoPratice.Service\\Interface\\IEmployeeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\appsettings.json",
+              "RelativeDocumentMoniker": "CrudDemoPratice\\appsettings.json",
+              "ToolTip": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\appsettings.json",
+              "RelativeToolTip": "CrudDemoPratice\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-14T17:33:58.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Program.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Program.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Interface\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Interface\\IEmployeeService.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice\\Controllers\\EmployeeController.cs",
@@ -67,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
               "RelativeDocumentMoniker": "CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
               "ToolTip": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
               "RelativeToolTip": "CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
-              "ViewState": "AgIAACwAAAAgAAAAAAAwwB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAwAAAAAAAwwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-28T13:17:12.099Z",
               "EditorCaption": ""
