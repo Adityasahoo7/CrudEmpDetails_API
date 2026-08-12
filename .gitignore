@@ -1,18 +1,28 @@
-# Visual Studio
 .vs/
 
 # Build folders
 bin/
 obj/
 
-# User-specific files
+# Visual Studio
+.vs/
 *.user
 *.suo
-*.userosscache
-*.sln.docstates
 
-# Node modules (if frontend exists)
-node_modules/
+# Rider
+.idea/
 
 # Logs
 *.log
+
+# Packages
+packages/
+
+# Publish
+publish/
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+
