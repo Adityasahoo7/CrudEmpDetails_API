@@ -280,6 +280,29 @@
         }
       }
     },
+    "/api/Employee/NthHighestSalary/{rank}": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "rank",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/SalaryPrediction/train": {
       "post": {
         "tags": [

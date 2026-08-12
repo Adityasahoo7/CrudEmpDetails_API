@@ -139,6 +139,22 @@
   },
   {
     "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
+    "Method": "GetNthhighestsalary",
+    "RelativePath": "api/Employee/NthHighestSalary/{rank}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rank",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudDemoPratice.Controllers.EmployeeController",
     "Method": "UpdateEmp",
     "RelativePath": "api/Employee/UpdateEmployee",
     "HttpMethod": "PUT",

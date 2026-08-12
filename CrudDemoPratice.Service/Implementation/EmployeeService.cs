@@ -2,6 +2,7 @@
 using CrudDemoPratice.Models.Models;
 using CrudDemoPratice.Repository.Interface;
 using CrudDemoPratice.Service.Interface;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using Microsoft.Extensions.ObjectPool;
 using OfficeOpenXml;
@@ -182,10 +183,26 @@ namespace CrudDemoPratice.Service.Implementation
 
         }
 
+        public async Task<List<GetAllEmployeeDTO>> getNthhifhsalaryservice(int rank)
+        {
+            var emp = await _repo.GetNthhighsalaryrepo(rank);
 
-        
+            if (emp == null)
+            {
+                throw new Exception("Employee Not found For This Rank : " + rank);
+            }
 
-
-
+            return emp.Select(e => new GetAllEmployeeDTO
+            {
+                Id = e.Id,
+                Name = e.Name,
+                Salary = e.Salary,
+                Phone = e.Phone,
+                Email = e.Email,
+                Age = e.Age,
+                Department = e.Department,
+                JoiningDate = e.JoiningDate
+            }).ToList();
+        }
     }
 }

@@ -19,6 +19,8 @@ namespace CrudDemoPratice.Service.Interface
 
         Task DeleteEmployeeService(int id);
 
+        Task<List<GetAllEmployeeDTO>> getNthhifhsalaryservice(int rank);
+
 
 
     }

@@ -16,5 +16,6 @@ namespace CrudDemoPratice.Repository.Interface
         Task AddAsyncRepo(Employee employee);
         Task UpdateAsyncRepo(Employee employee);
         Task DeleteAsyncRepo(int id);
+        Task<List<Employee>> GetNthhighsalaryrepo(int rank);
     }
 }

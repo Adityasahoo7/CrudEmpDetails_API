@@ -83,5 +83,17 @@ namespace CrudDemoPratice.Controllers
         
         }
 
+        [Authorize(Roles ="Admin")]
+        [HttpGet]
+        [Route("NthHighestSalary/{rank}")]
+        public async Task<IActionResult> GetNthhighestsalary(int rank)
+        {
+            var emp = await _employeeService.getNthhifhsalaryservice(rank);
+
+            return Ok(emp);
+        }
+
+
+
     }
 }

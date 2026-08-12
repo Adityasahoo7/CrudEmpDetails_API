@@ -43,10 +43,7 @@ namespace CrudDemoPratice.Repository.Implementation
             return await _context.Employeesds.ToListAsync();
         
         }
-        public async Task<Employee> GetByIdAsyncRepo(int id) {
-              return await _context.Employeesds.FindAsync(id);
-         
-        }
+       
         public async Task AddAsyncRepo(Employee emp)
         {
             _context.Employeesds.Add(emp);
@@ -69,6 +66,17 @@ namespace CrudDemoPratice.Repository.Implementation
                 await _context.SaveChangesAsync();
             }
         
+        }
+
+        public async Task<Employee> GetByIdAsyncRepo(int id)
+        {
+            return await _context.Employeesds.FindAsync(id);
+
+        }
+
+        public async Task<List<Employee>> GetNthhighsalaryrepo(int rank)
+        {
+          return  await _context.Employeesds.FromSqlInterpolated($"sp_getNthhighestsalary @rank= {rank}").ToListAsync();  
         }
     }
 }
