@@ -83,7 +83,7 @@ namespace CrudDemoPratice.Controllers
         
         }
 
-        [Authorize(Roles ="Admin")]
+        [Authorize(Roles ="Admin,User")]
         [HttpGet]
         [Route("NthHighestSalary/{rank}")]
         public async Task<IActionResult> GetNthhighestsalary(int rank)
