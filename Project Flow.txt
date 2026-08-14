@@ -1,0 +1,73 @@
+Window serveice deploy in server that run every 10 min 
+that will fetch central govt data to our frip portal only bank of india data 
+onprem boi application 
+
+
+
+
+
+
+
+
+
+HOW TO SYNC{
+window service have no ui
+only start and stop(Windowes service)
+They give a api key with uid and password {guid id(Api key)}
+
+we call using HTTP Call we request the latest 10 min data 
+
+we store the data in sql server
+using http call we pass uid and password and api key in the http request header 
+we store this details in app.config in xml format 
+in request body we pass last run time (like 09:00pm to 09:10pm)start time , end time in json format all details
+we deserialize all the json data and dump in sql 
+
+
+
+we don't action in their portal and in last we update
+
+our application register in finnacle
+they are provide client iod and client secret and authentication url
+we use this secret and genetae token and pass this token in authorization header 
+we generate the token by call authorization url
+
+when we call finnacle api we use that token as a authorization header
+for tran history
+
+
+we call a post endpoint of finnacle to block the perticular amount
+ 
+
+
+From our api we are generated a token client id and client secret and role and we gener
+
+}
+
+we call this this api api name like 2 to 3 
+
+
+HOW AUTH 
+idam.bankofindia.co.in
+
+we integrating idam authenticationn framework to our angular application
+1st we need to pass 6the uid and pass and then they are validate the uid and pass and asking for MFA for mobile otp 
+after successfully authentication we redirect to boi internal application and it is refreshing every 10 min
+
+
+make a dummy winfow service
+database 2 table 2 both table name same insert dummy 1000 data in source table 
+column created date 100 data in every 10 min
+
+
+Hello sir 
+i am working on Frip portal which is stand for fruad and risk intaligence platform 
+when someone complained in the cyber police for fraud then the cyber police took the complaint into the central govt portal 
+our application sync with the i4c portal and get the complaint which is for  the boi(bankofindia)
+then we dump the data to our sql db  for every 10 min interval and dump the document in the directory also and the data now showing in our portal 
+then the bank authority get the data and our portal sync with core banking app finnacle we send http request
+ to finnacle endpoint to get the transaction details based on account number  
+if the froud amount present in frudester account then it call a post end point to block the fraud amout if the amount not present 
+it give the transaction details to bank authority and then bank authority update the transaction status into the portal and  
+
+

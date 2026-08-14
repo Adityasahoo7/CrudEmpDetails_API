@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "CrudDemoPratice\\Controllers\\EmployeeController.cs",
               "ToolTip": "D:\\DotNet Project\\CrudDemoPratice\\CrudDemoPratice\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "CrudDemoPratice\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAwFwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T20:13:14.118Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "CrudDemoPratice.Models\\Models\\Employee.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T20:09:22.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T20:09:22.895Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "CrudDemoPratice.Repository\\Implementation\\EmployeeRepo.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAD4v0gAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T20:05:40.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T20:05:40.24Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "CrudDemoPratice.Service\\Implementation\\EmployeeService.cs",
               "ViewState": "AgIAALcAAAAAAAAAAAAkwMYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T19:58:47.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T19:58:47.741Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "CrudDemoPratice.Service\\Interface\\IEmployeeService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T19:57:41.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T19:57:41.473Z"
             }
           ]
         }
