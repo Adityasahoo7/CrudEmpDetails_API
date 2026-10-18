@@ -15,7 +15,7 @@ namespace CrudDemoPratice.Controllers
         {
             _service = service;
         }
-        [Authorize(Roles = "Admin,User")]
+       // [Authorize(Roles = "Admin,User")]
         [HttpPost]
         public async Task<IActionResult> Search(AISearchRequestDto request)
         {

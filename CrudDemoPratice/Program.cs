@@ -32,7 +32,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ISalaryPredictionService, SalaryPredictionService>();
 
-
+builder.Services.AddHttpClient<IAIQueryInterpreter, AIQueryInterpreter>();
 builder.Services.AddHttpClient<IAIQueryInterpreter, AIQueryInterpreter>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:11434/");
