@@ -1,0 +1,33 @@
+name: Deploy Azure SQL
+
+on:
+  workflow_dispatch:          # lets you run it manually
+  push:
+    branches: [ main ]
+    paths: [ 'infra/**' ]     # only runs when the infra folder changes
+
+jobs:
+  deploy-infra:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Deploy ARM template
+        id: deploy
+        uses: azure/arm-deploy@v2
+        with:
+          resourceGroupName: Crud-Demo-Application
+          template: ./infra/azuredeploy.json
+          parameters: >
+            administratorLogin=${{ secrets.SQL_ADMIN_LOGIN }}
+            administratorLoginPassword=${{ secrets.SQL_ADMIN_PASSWORD }}
+
+      - name: Create tables
+        uses: azure/sql-action@v2.3
+        with:
+          connection-string: Server=tcp:${{ steps.deploy.outputs.sqlServerFqdn }},1433;Initial Catalog=CrudDemoPratice;User ID=${{ secrets.SQL_ADMIN_LOGIN }};Password=${{ secrets.SQL_ADMIN_PASSWORD }};Encrypt=True;
+          path: ./infra/create-tables.sql
