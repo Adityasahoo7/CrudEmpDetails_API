@@ -9,10 +9,10 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\Cr
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.AssemblyInfoInputs.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.AssemblyInfo.cs
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.csproj.CoreCompileInputs.cache
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.sourcelink.json
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemo.209EC9A2.Up2Date
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.dll
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\refint\CrudDemoPratice.Repository.dll
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\ref\CrudDemoPratice.Repository.dll
-D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Repository\obj\Debug\net8.0\CrudDemoPratice.Repository.sourcelink.json

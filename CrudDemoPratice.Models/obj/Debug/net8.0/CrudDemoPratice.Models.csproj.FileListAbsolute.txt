@@ -7,9 +7,9 @@ D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDe
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.AssemblyInfoInputs.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.AssemblyInfo.cs
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.csproj.CoreCompileInputs.cache
+D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.sourcelink.json
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.dll
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\refint\CrudDemoPratice.Models.dll
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.pdb
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.genruntimeconfig.cache
 D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\ref\CrudDemoPratice.Models.dll
-D:\DotNet Project\CrudDemoPratice\CrudDemoPratice.Models\obj\Debug\net8.0\CrudDemoPratice.Models.sourcelink.json

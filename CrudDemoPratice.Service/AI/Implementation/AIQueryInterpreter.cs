@@ -65,11 +65,11 @@ Query: name contains ravi
 
         public AIQueryInterpreter(HttpClient httpClient, IConfiguration config, ILogger<AIQueryInterpreter> logger)
         {
-            _apiKey = config["Groq:ApiKey"] ?? throw new Exception("Groq API key not found in configuration.");
+            _apiKey = config["groq-apikey"] ?? throw new Exception("Groq API key not found in configuration.");
             _httpClient = httpClient;
             _logger = logger;
         }
-
+            
         public async Task<AIQueryMetadataDto> InterpretAsync(string naturalLanguageQuery)
         {
             var requestBody = new
