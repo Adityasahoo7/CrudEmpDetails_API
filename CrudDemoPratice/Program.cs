@@ -38,7 +38,7 @@ string GetRequired(string key)
 
 // Secrets expected in Key Vault (flat names, exactly as written):
 //   connstrlocal, jwt-key, jwt-Issuer, jwt-Audience, groq-apikey
-var connStr = GetRequired("connstrAzurev3");
+var connStr = GetRequired("dbconnAzurev1");
 //var connStr = GetRequired("connstrlocal");
 var jwtKey = GetRequired("jwt-key");
 var jwtIssuer = GetRequired("jwt-Issuer");
