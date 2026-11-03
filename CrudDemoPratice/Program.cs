@@ -93,7 +93,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // Angular origin
+        policy.WithOrigins("http://localhost:4200", "https://kind-cliff-0f551bb10.2.azurestaticapps.net") // Angular origin
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
